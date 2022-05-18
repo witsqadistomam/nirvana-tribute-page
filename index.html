@@ -9,11 +9,20 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- partial:index.partial.html -->
 
+    <!-- Awal Navbar -->
     <nav>
       <ul>
         <li><a href="#main">Main</a></li>
@@ -23,12 +32,16 @@
         <li><a href="#follow">Follow</a></li>
       </ul>
     </nav>
+    <!-- Akhir Navbar -->
 
+    <!-- Awal Main Section -->
     <section id="main">
-      <h1 id="title">NIRVANA</h1>
-      <p id="tagline">Come As You Are</p>
+      <h1 id="title" data-aos="fade-right" data-aos-duration="3000">NIRVANA</h1>
+      <p id="tagline" data-aos="fade-right" data-aos-duration="1000">Come As You Are</p>
+      <!-- Akhir Main Section -->
 
-      <figure id="img-div">
+      <!-- Awal Picture Cover -->
+      <figure id="img-div" data-aos="flip-down" data-aos-duration="1000">
         <img src="https://www.teahub.io/photos/full/24-249199_nirvana-hd-wallpaper-pc.jpg" alt="Nirvana" id="image" />
         <figcaption id="img-caption">
           <strong>NIRVANA</strong> <br />
@@ -36,10 +49,14 @@
         </figcaption>
       </figure>
     </section>
+    <!-- Akhir Picture Cover -->
 
-    <section id="tribute-info">
+    <!-- Awal Tribute-info Section -->
+    <section id="tribute-info" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
       <h2>Nirvana Timeline</h2>
-      <ul>
+      <ul data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
         <li><strong>May 10, 1965</strong> Krist Novoselic is born.</li>
         <li><strong>February 20, 1967</strong> Kurt Cobain is born.</li>
         <li><strong>January 14, 1969</strong> Dave Grohl is born.</li>
@@ -75,10 +92,14 @@
         <li><strong>February 6, 1994 </strong> Nirvana embarks on a tour of Europe.</li>
       </ul>
     </section>
-
-    <section id="discography">
+    <!-- Akhir Tribute-info Section -->
+    
+    <!-- Awal Discography Section -->
+    <section id="discography" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
       <h2>Discography</h2>
-      <ul>
+      <ul data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
         <li class="album">
           <a href="https://www.nirvana.com/album/bleach/" target="_blank">
             <img src="https://www.nirvana.com/files/2015/12/bleach.jpg" alt="Bleach" class="album-img" />
@@ -88,7 +109,7 @@
             </div>
           </a>
         </li>
-
+        
         <li class="album">
           <a href="https://www.nirvana.com/album/nevermind/" target="_blank">
             <img src="https://www.nirvana.com/files/2015/12/Nevermind.jpg" alt="Nevermind" class="album-img" />
@@ -108,7 +129,7 @@
             </div>
           </a>
         </li>
-
+        
         <li class="album">
           <a href="https://www.nirvana.com/album/unplugged-in-new-york/" target="_blank">
             <img src="https://www.nirvana.com/files/2015/12/Unplugged.jpg" alt="MTV Unplugged In New York" class="album-img" />
@@ -120,12 +141,16 @@
         </li>
       </ul>
     </section>
-
-    <section id="videos">
+    <!-- Akhir Discography Section -->
+    
+    <!-- Awal Videos Section -->
+    <section id="videos" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
       <h2>Videos</h2>
       <div class="g-ytsubscribe" data-channelid="UCFMZHIQMgBXTSxsr86Caazw" data-layout="full" data-count="default"></div>
-
-      <div class="video-list">
+      
+      <div class="video-list" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
         <iframe
           width="560"
           height="315"
@@ -134,29 +159,29 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
-
+          ></iframe>
+          
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/vabnZ9-ex7o"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/vabnZ9-ex7o"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+          ></iframe>
 
         <iframe
-          width="560"
+        width="560"
           height="315"
           src="https://www.youtube.com/embed/fregObNcHC8"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
-
-        <iframe
+          ></iframe>
+          
+          <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/hEMm7gxBYSc"
@@ -167,30 +192,50 @@
         ></iframe>
       </div>
     </section>
-
+    <!-- Akhir Videos Section -->
+    
+    <!-- Awal Follow Section -->
     <section id="follow">
-      <h2>Follow Nirvana</h2>
+      <h2 data-aos="fade-left">Follow Nirvana</h2>
       <ul>
         <li>
-          <a href="https://www.nirvana.com/" id="tribute-link" target="_blank"><i class="fas fa-globe"></i></a>
+          <a href="https://www.nirvana.com/" id="tribute-link" target="_blank"></i></a>
         </li>
 
         <li>
-          <a href="https://twitter.com/Nirvana?s=20&t=xmVcnS6-m4yzouRKo3u16g" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://twitter.com/Nirvana?s=20&t=xmVcnS6-m4yzouRKo3u16g" target="_blank"></i></a>
         </li>
-
+        
         <li>
           <a href="https://www.facebook.com/Nirvana" target="_blank"><i class="fab fa-facebook"></i></a>
         </li>
-
+        
         <li>
           <a href="https://www.youtube.com/channel/UCFMZHIQMgBXTSxsr86Caazw" target="_blank"><i class="fab fa-youtube"></i></a>
         </li>
       </ul>
     </section>
+    <!-- Akhir Follow Section -->
 
+    <!-- Font Google JS -->
     <script src="https://apis.google.com/js/platform.js"></script>
 
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+    <!-- AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: true,
+        disable: 'mobile', 
+        delay: 0,
+      });
+    </script>
+
+    <!-- Tester JS -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- partial -->
   </body>
